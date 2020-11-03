@@ -1,6 +1,6 @@
 # genie-informatique-2 Files 
 
-<img src="http://lorempixel.com/400/200/">
+<img src="https://imgflip.com/gif/4kwiof">
  
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
