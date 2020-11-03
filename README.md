@@ -1,11 +1,6 @@
 # genie-informatique-2 Files 
 
-<img src="https://imgflip.com/gif/4kwiof">
- 
-# Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+![Blue and White Modern Technology Portfolio Presentation (1)](https://user-images.githubusercontent.com/42038003/98040457-9a36c700-1e20-11eb-9258-c5d633069f45.gif)
 
 ```bash
  create by Khalil el Maghraoui 
