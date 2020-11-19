@@ -44,8 +44,8 @@ public class Main {
         try {
             FileInputStream file= new FileInputStream("C:\\\\Users\\\\KURAPIKA.dll\\\\Desktop\\\\New folder (2)\\"+bin_file);
             BufferedInputStream bis = new BufferedInputStream(file);
-
             DataInputStream read = new DataInputStream(bis);
+            
             int n=read.available();
             byte [] buffer=new byte[n];
             read.read(buffer);
@@ -55,10 +55,6 @@ public class Main {
             }
 
             read.close();
-
-
-
-
 
         } catch (IOException e) {
             e.printStackTrace();
