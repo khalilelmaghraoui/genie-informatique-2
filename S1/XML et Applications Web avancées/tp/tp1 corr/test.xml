@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this is a note -->
+<textemath>
+    <texte>
+        calcule la valeur de l'expression
+    </texte>
+    <formule>
+        <fraction>
+            <formule>
+                <op1>
+                    <somme>
+
+                        <op1>
+                            <formule>
+                                <puissance exposant="4">
+                                    <op1>
+                                        <variable>x</variable>
+                                    </op1>
+                                </puissance>
+                            </formule>
+
+                        </op1>
+                        <op2>
+                            <formule>
+                                <racine order="3">
+                                    <op1>
+                                        <valeur>5</valeur>
+                                    </op1>
+
+                                </racine>
+                            </formule>
+                        </op2>
+                    </somme>
+                </op1>
+                <op2>
+                    <produits>
+                        <op1>
+                            <valeur>
+                                7
+                            </valeur>
+
+                        </op1>
+                        <op2>
+                            <formule>
+                                <racine order="2">
+                                    <op1>
+                                        <valeur>
+                                            3
+                                        </valeur>
+                                    </op1>
+
+
+                                </racine>
+                            </formule>
+
+                        </op2>
+                    </produits>
+                </op2>
+            </formule>
+        </fraction>
+
+    </formule>
+
+
+    <texte>lorsque</texte>
+    <formule>
+        <variable>x</variable>
+    </formule>
+    <texte>prend la valeur</texte>
+    <formule>
+        <valeur>4</valeur>
+    </formule>
+
+
+
+</textemath>
