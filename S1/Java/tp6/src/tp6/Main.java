@@ -10,7 +10,7 @@ public class Main {
 
     public static Connection connectionDataBase(String url,String user) {
         try {
-           // Class.forName("tp6.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             con=DriverManager.getConnection(url,user,"");
 
             System.out.println("connexion est reussite");
@@ -68,6 +68,7 @@ public class Main {
                 System.out.println(" ");
                 System.out.println(resultSet.getString("niveau"));
                 array.add(resultSet.getString("nom"));
+
             }
             System.out.println("done");
             return array;
@@ -269,8 +270,9 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
 
-       // insererEtudiant("jdbc:mysql://localhost:3306/tp6","root","A1","khalil","el maghraoui", java.sql.Date.valueOf("1999-09-04"),"4 eme");
-       // insererEtudiant("jdbc:mysql://localhost:3306/tp6","root","A2","abir","el maghraoui", java.sql.Date.valueOf("2000-09-04"),"1 er");
+
+     //  insererEtudiant("jdbc:mysql://localhost:3306/sqql","root","A1","khalilooo","el maghraouioo", java.sql.Date.valueOf("1999-09-04"),"4 eme");
+       insererEtudiant("jdbc:mysql://localhost:3306/sqql","root","A2","abir","el maghraoui", java.sql.Date.valueOf("2000-09-04"),"1 er");
       //  insererEtudiant("jdbc:mysql://localhost:3306/tp6","root","A3","manal","el maghraoui", java.sql.Date.valueOf("2018-09-04"),"3 eme");
 
    // insererExamen("jdbc:mysql://localhost:3306/tp6","root","A1","A11",19.5f);
