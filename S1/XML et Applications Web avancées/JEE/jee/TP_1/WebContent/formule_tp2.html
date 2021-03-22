@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>formule_tp2</title>
+</head>
+<body>
+	<form action="userInfo" method="get">
+	<table>
+		<tr>
+			<td>Nom : </td>
+			<td><input type="text" name="nom" required="required"></td>
+		</tr>
+		<tr>
+			<td>Prénom : </td>
+			<td><input type="text" name="prenom" required="required"></td>
+		</tr>
+		<tr>
+			<td>Email : </td>
+			<td><input type="email" name="prenom" required="required"></td>
+		</tr>
+		<tr>
+			<td>Date de naissance : </td>
+			<td><input type="text" name="age" required="required"></td>
+		</tr>
+		<tr>
+			<td>Telephone : </td>
+			<td><input type="number" name="age" required="required"></td>
+		</tr>
+		<tr>
+			<td>sexe : </td>
+			<td>
+				<input type="radio" value="Feminin" name="sexe">
+				<input type="radio" value="Masculin" name="sexe">	
+			</td>
+		</tr>
+		<tr>
+			<td>Pays : </td>
+			<td>
+				<select>
+					<option>Maroc</option>
+					<option>Algérie</option>
+					<option>Tunusie</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Langage de programmation : </td>
+			<td>
+				<input type="checkbox" name="langage"> C++
+				<input type="checkbox" name="langage"> Java
+				<input type="checkbox" name="langage"> PHP
+				<input type="checkbox" name="langage"> python
+			</td>
+		</tr>
+		
+		<tr>
+			<td><input type="submit" value="Envoyer" /></td>
+			<td><input type="reset" value="Annuler"  /></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

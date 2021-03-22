@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>formule_tpp2</title>
+</head>
+<body>
+	<form action="information.jsp" method="get">
+	<table>
+		<tr>
+			<td>Nom : </td>
+			<td><input type="text" name="nom"></td>
+		</tr>
+		<tr>
+			<td>Prénom : </td>
+			<td><input type="text" name="prenom"></td>
+		</tr>
+		<tr>
+			<td>Email : </td>
+			<td><input type="email" name="email"></td>
+		</tr>
+		<tr>
+			<td>Date de naissance : </td>
+			<td><input type="text" name="date"></td>
+		</tr>
+		<tr>
+			<td>Telephone : </td>
+			<td><input type="number" name="telephone"></td>
+		</tr>
+		<tr>
+			<td>sexe : </td>
+			<td>
+				<input type="radio" value="Masculin" name="sexe" /> Masculin
+				<input type="radio" value="Feminin" name="sexe" /> Feminin	
+			</td>
+		</tr>
+		<tr>
+			<td>Pays : </td>
+			<td>
+				<select name="pays">
+					<option>Maroc</option>
+					<option>Algérie</option>
+					<option>Tunusie</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Langage de programmation : </td>
+			<td>
+				<input type="checkbox" name="langage" value="C++" /> C++
+				<input type="checkbox" name="langage" value="Java" /> Java
+				<input type="checkbox" name="langage" value="PHP" /> PHP
+				<input type="checkbox" name="langage" value="Python" /> python
+			</td>
+		</tr>
+		
+		<tr>
+			<td><input type="submit" value="Envoyer" /> <input type="reset" value="Effacer"  /></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
