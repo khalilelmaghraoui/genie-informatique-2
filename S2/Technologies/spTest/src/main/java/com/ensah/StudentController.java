@@ -37,11 +37,13 @@ public class StudentController {
         student.setCne("m1313131");
         student.setEmail("khalil@gmail.com");
         student.setLastName("el maghraoui");
+        student.setEmail("KHALIL@GMAIL.COM");
 
         model.addAttribute("student_Model",student);
 
         return "Form";
     }
+    
 
     @RequestMapping("/addStudent")
     public String proces(@ModelAttribute("student_Model") Student student){
