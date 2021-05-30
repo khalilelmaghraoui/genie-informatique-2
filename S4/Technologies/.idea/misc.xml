@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../../../New folder/ensah_javaee-master/tp2_ex1_web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../New folder/ensah_javaee-master/ensah_base_jee/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../New folder/ensah_javaee-master/tp2_ex1_web/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../New folder/ensah_javaee-master/tp2_ex1_tp1/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../New folder/ensah_javaee-master/ensah_base_jee/tp2_ex1_beslo/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../New folder/ensah_javaee-master/tp2_ex1_bl/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../../New folder/ensah_javaee-master/tp2_ex1_bll/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
